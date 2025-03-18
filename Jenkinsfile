@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Docker push') { 
             steps {
-                echo "This is docker push stage. dev"
+                echo "This is docker push stage. dev auto trigger after pushing the code"
             }
         }
     }
