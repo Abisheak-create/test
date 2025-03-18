@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Docker Build') { 
             steps {
-                echo "This is Build stage. dev"
+                echo "This is Build stage. dev auto trigger after pushing the code"
             }
         }
         stage('Docker push') { 
